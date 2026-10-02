@@ -1,4 +1,4 @@
-class Button:
+class ButtonEX:
     buttonName = ""
     buttonState = False
     
