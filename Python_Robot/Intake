@@ -1,0 +1,16 @@
+from enum import Enum
+from Button import Button
+from Motor import Motor
+
+class Intake:
+    
+    motorIntake = Motor("IntakeMotor", 100)
+    butonFront = Button("FrontButton")
+    butonBack = Button("BackButton")
+    state = Enum('FRONT', 'STOP', 'BACK')
+    inState = state.STOP
+    
+    def __init__(self): 
+
+    def intakeState(self, state):
+        if(self.butonFront)

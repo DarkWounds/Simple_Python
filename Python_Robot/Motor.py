@@ -36,12 +36,3 @@ class Motor:
         if(self.runMode == RunMode.RUN_TO_POSITION):
             return self.current_rpm * 100 / self.max_rpm
         return 0
-    
-                
-motor1 = Motor("Shooter", 6000)
-motor1.set_run_mode(RunMode.RUN_WITH_ENCODER)
-motor1.set_power(0.8)
-print(f"RPM: {motor1.get_rpm()}")
-
-motor2 = Motor("Intake", 435)
-print(f"RunMode: {motor2.get_run_mode().name}")

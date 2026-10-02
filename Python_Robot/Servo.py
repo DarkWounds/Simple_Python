@@ -1,17 +1,20 @@
-
 class Servo:
+    
+    nume = ""
+    currPos = 0.0
+    
     def __init__(self, nume):
-        this.nume = nume
-        this.currPos = 0.0;
+        self.nume = nume
+        self.currPos = 0.0;
         
     def setPosition(self, position):
-        this.currPos = range(-1, 1, position)
+        self.currPos = range(-1, 1, position)
         
     def getPosition(self):
-        return this.currPos
+        return self.currPos
     
     def getName(self):
-        return this.name
+        return self.nume
     
            
  
