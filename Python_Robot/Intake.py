@@ -11,6 +11,6 @@ class Intake:
     inState = state.STOP
     
     def __init__(self): 
-
-    def intakeState(self, state):
-        if(self.butonFront)
+        pass
+    
+    
